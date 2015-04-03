@@ -106,7 +106,7 @@ whichDeferred.promise
 
     // Can't use a global version so start a download.
     if (process.platform === 'linux' && process.arch === 'x64') {
-      downloadUrl = 'https://github.com/fdubost/phantomjs2/releases/download/v2.0.0/phantomjs-2.0.0-20141016-u1204-x86_64.zip'
+      downloadUrl = 'https://github.com/bprodoehl/phantomjs/releases/download/2.0.0-20141016/phantomjs-2.0.0-20141016-u1404-x86_64.zip'
     } else if (process.platform === 'darwin' || process.platform === 'openbsd' || process.platform === 'freebsd') {
       downloadUrl += 'macosx.zip'
     } else {
